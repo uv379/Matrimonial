@@ -1,0 +1,76 @@
+body,
+html {
+    height: 100%;
+    background-image: url('https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+.img {
+    /* background-image: url('https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+    min-height: 380px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 700px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.459);
+}
+
+input[type=first],
+input[type=second],
+input[type=religion],
+input[type=email],
+input[type=mobile] {
+    width: 90%;
+    padding: 5px;
+    margin: 5px 0 12px 0;
+}
+
+input[type=first]:focus,
+input[type=second]:focus,
+input[type=religion]:focus,
+input[type=email]:focus,
+input[type=mobile]:focus {
+    background-color: #ddd;
+    outline: black;
+}
+
+#gender {
+    padding: 3px;
+    margin: 5px 0 12px 0;
+}
+
+#looking {
+    padding: 3px;
+    margin: 5px 0 12px 0;
+}
+
+#languge {
+    padding: 3px;
+    margin: 5px 0 12px 0;
+}
+
+#country {
+    padding: 3px;
+    margin: 5px 0 12px 0;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;
+    margin: 5px 0 12px 0;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
